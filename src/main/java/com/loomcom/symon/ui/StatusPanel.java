@@ -74,8 +74,8 @@ public class StatusPanel extends JPanel {
     private static final int EMPTY_BORDER = 10;
     private static final Border LABEL_BORDER = BorderFactory.createEmptyBorder(0, 5, 0, 0);
     private static final Font LABEL_FONT = new Font(Font.SANS_SERIF, Font.BOLD, 12);
-    private static final Dimension LARGE_TEXT_FIELD_SIZE = new Dimension(134, 22);
-    private static final Dimension SMALL_TEXT_FIELD_SIZE = new Dimension(65, 22);
+    private static final Dimension LARGE_TEXT_FIELD_SIZE = new Dimension(134, 32);
+    private static final Dimension SMALL_TEXT_FIELD_SIZE = new Dimension(65, 32);
 
     public StatusPanel(Machine machine) {
         super();
